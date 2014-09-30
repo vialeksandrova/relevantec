@@ -1,5 +1,5 @@
 <?php
-require_once(dirname(dirname(__FILE__)) . '/' . '../Actions/Footer/User.php');
+require_once(dirname(dirname(__FILE__)) . '/' . '../Actions/Header/User.php');
 
 class HeaderScenarioUser extends HeaderActionsUser {
 
