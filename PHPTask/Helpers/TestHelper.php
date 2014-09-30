@@ -1,7 +1,7 @@
 <?php
 require_once(dirname(dirname(__FILE__)) . '/Model/TestModel.php');
 
-class TestHelper extends TestHelper
+class TestHelper extends TestModel
 {
 	public function hoverOnLoginDropdown() {
 		sleep(1);
