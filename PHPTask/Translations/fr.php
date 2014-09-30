@@ -12,6 +12,7 @@ $translation["fr"] = array(
 	 "Returns" => "Retours",
 	 "FAQ" => "Questions fréquentes",
 	 "Contact" => "Contact",
-	 "SYSTEM_domain" => "http://example.com"
+	 "SYSTEM_domain" => "http://example.com",
+	 "Register new" => "Register new"
  );
  ?>
