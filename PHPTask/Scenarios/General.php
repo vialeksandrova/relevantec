@@ -49,7 +49,7 @@ class GeneralScenario extends GeneralActions
                 foreach ($dir as $fileinfo) {
                     if (!$fileinfo->isDot()) {
                     $filename = $fileinfo->getFilename();
-                    require_once dirname(__FILE__) ."/". $directory ."/". $fileinfo->getFilename();
+                    require_once (dirname(__FILE__) ."/". $directory ."/". $fileinfo->getFilename());
                     $class_name = explode(".",$filename);
                     $class = ucfirst($class_name[0]);
                     $class_def = $directory."Scenario".$class_name[0];
